@@ -45,7 +45,7 @@ echo ""
 echo "Node JS"
 expectToContain "/KTH_NODEJS" "Build date:" "/KTH_NODEJS should contain the date when the images was built."
 expectToContain "/KTH_NODEJS" "Node: v14" "Image should have Node v14* installed."
-expectToContain "/KTH_NODEJS" "NPM: 6" "Image should have 'npm 7.*.*' installed."
+expectToContain "/KTH_NODEJS" "NPM: 6" "Image should have 'npm 6.*.*' installed."
 expectToContain "/KTH_NODEJS" "Yarn: 1." "Image should have 'Yarn 1.*.*' installed."
 expectToContain "/KTH_NODEJS" "merge-descriptors@" "Image should have global package 'merge-descriptors' installed."
 
